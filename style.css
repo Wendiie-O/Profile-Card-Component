@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+    
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-position: left 50vw top 50vh, right 50vw bottom 50vh;
+    background-repeat: no-repeat;
+}
+
+.container{
+   margin: 0 auto;
+   position: relative;
+   background-color: white;
+   border-radius: 5%;
+   box-shadow: 20px 5px 100px hsl(185, 75%, 39%);
+}
+
+.card{
+    padding-bottom: 0%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+
+.profile{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+}
+
+
+.profilepicture{
+    position: absolute;
+    top: 70px;
+    bottom: 70px;
+    left: 110px;
+    right: 50px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.name{
+    display: block;
+}
+
+.stats{
+    display: block;
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+    
+}
