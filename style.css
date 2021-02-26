@@ -7,11 +7,10 @@
 body{
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
 }
 
 main{
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     background-color: hsl(185, 75%, 39%);
@@ -55,13 +54,59 @@ main{
 
 .name{
     display: block;
-}
-
-.stats{
-    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
 }
 
 span{
     color: hsl(227, 10%, 46%);
-    
+    font-weight: 400;
+    padding: 5px;
+}
+
+.city{
+    font-size: 12px;
+}
+
+hr{
+margin-top: 30px;
+color: hsl(227, 10%, 46%);
+opacity: 25%;
+}
+
+.stats{
+    display: flex;  
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.stats span{
+    display: block;
+    font-size: 10px;
+}
+
+.likes , .photos{
+    margin-left: 50px;
+}
+
+.followers{
+margin-left: 30px;
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        box-shadow: 20px 50px 100px hsl(185, 75%, 39%);
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    .city{
+        margin-bottom: 90px;
+    }
 }
