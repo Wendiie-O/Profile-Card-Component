@@ -7,16 +7,16 @@
 body{
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
-}
-
-main{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
     background-position: left 50vw top 50vh, right 50vw bottom 50vh;
     background-repeat: no-repeat;
+}
+
+main{
+    min-height: 97vh;
+    display: flex;
+    align-items: center;
 }
 
 .container{
